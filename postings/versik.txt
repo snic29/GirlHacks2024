@@ -1,0 +1,53 @@
+﻿Verisk
+Insurance
+Spring 2025 Co-Op: Junior Software Developer (4-6 months)
+At a glance
+$30–36/hr
+Hybrid, based in Jersey City, NJ
+Work in person for part of the week, from the location
+Cooperative Education
+Full-time∙From January 8 to June 27
+US work authorization required
+About the Co-op Program:
+Verisk‘s Co-op Program is designed to provide you with real work experience, professional development, and networking opportunities. This is a full-time (40 hours/ week) paid co-op program spanning six months from January through June 2025. Participation in the co-op program requires that you are located near the Jersey City office as the program is a hybrid work schedule, requiring you to be in the office at least 2 days per week.
+We are hiring at the following U.S. location: Jersey City, NJ
+At Verisk, we have a longstanding commitment to inclusion, diversity & belonging in our workplace and marketplace. Click here to read our statement on Racial, Equity and Diversity and learn more about our Employee Network Groups and our commitment to making a change.  
+We have opportunities for students interested in exploring careers in tech around the globe. Verisk is a leading data analytics provider serving customers in insurance. Our team of nearly 9,000 helps customers make crucial decisions every day about risk—with greater precision, efficiency, and discipline.
+Roles We’re Looking to Fill: Underwriting Analytics Team
+What You Could Learn (based on the role you're assigned):
+* How to implement and test commercial analytical applications
+* How to define, enhance and maintain processes utilized to execute upon the software development life cycle
+* How to work as part of a team to investigate, analyze and implement new technologies and tools and techniques in existing commercial applications
+* How to write great applications using the following:
+   * Python, Java, .Net
+   * Angular, JavaScript
+   * SQL languages
+   * AWS cloud infrastructure
+   * Work in Agile SCRUM teams
+Recruitment Process:
+We want to get to know YOU. Once you apply, our team will review your application. Successful candidates will be invited to a two-stage interview process including:
+1. Technical Assessment: Should your profile be a match, we will ask you to complete a 90 minute HackerRank technical assessment. In the assessment, you'll have an opportunity to code in a language of your choice, and also answer some basic multiple-choice questions. This will help us understand how you approach and solve technical challenges.
+2. Final Live Virtual Interview: During this round, you'll speak with members of our technical team. At this point, we know you have the technical skills to succeed at Verisk and have the passion for this field. In this final round, it’s all about determining if you are the right fit for Verisk, and Verisk is the right fit for you.
+3. Offer: Our technical team will then meet and discuss your candidacy. If we extend you an offer, you will have 3 business days to get back to us with a final decision.
+What We’re Looking For:
+Skills and Knowledge  
+* Excellent problem-solving and analytical skills and quick learner
+* Knowledge of object-oriented design principles, data structure, and algorithm
+* Knowledge of development tools, such as Visual Studio Code
+* Knowledge of SQL programming
+* Familiarity with Cloud based Development – AWS is plus
+* Familiarity with Python, Java or .NET
+* Strong verbal and written communication
+* Ability to work well in teams
+* Ability to learn and apply new tools
+* Strong work ethic and attention to details
+Experience  
+* Enrolled in bachelors or masters program graduating in December 2025 or later. We love folks with varied coursework, but you must possess an analytical mindset, passion for tech, and a desire to innovate. The following majors are desired:
+   * Computer Science, Computer Engineering, Information Technology, or Management Information Systems
+* Verisk businesses leverage a wide variety of tech stacks, and you may be working on Java, .Net, or something else, depending on the team to which you are assigned. It would be helpful (though not required) if you have some of the following experience:
+   * Infrastructure: AWS, GCP
+   * Front-End: Angular, React, NodeJS
+   * Back-End: Python, Java, C++, Spring, C#, Microsoft SQL, and other database technologies such as AWS Aurora, etc.
+* Don’t worry about knowing all the technologies involved - we’ll teach you, but if you have any prior experience, it’s a definite plus, so please be sure to include your technical skillset on your resume, so we can see your experience and interests
+ 
+The Co-Op Program is not eligible for work visa sponsorship.  If you will require work visa sponsorship (e.g., H1-B visa)” after completing your degree, you do not meet the basic requirements of the co-op role.

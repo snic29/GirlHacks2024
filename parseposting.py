@@ -26,8 +26,10 @@ def getDesiredTraits(posting):
     desiredSkills = call_openai_chat(openaimsg)
     return desiredSkills
 
-with open('sampleposting.txt', 'r', encoding='utf-8') as file:
+#TODO: write function to go through all files in postings folder to extract skills
+
+with open('postings/bofa.txt', 'r', encoding='utf-8') as file:
     posting = file.read()
     file.close()
-    
+
 print(getDesiredTraits(posting))
