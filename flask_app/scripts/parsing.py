@@ -33,6 +33,8 @@ def getResumeTraits(resume):
     candidateSkills = call_openai_chat(openaimsg)
     return candidateSkills
 
+
+
 if __name__ == "__main__":  
     with open('postings/merck.txt', 'r', encoding='utf-8') as file:
         posting = file.read()
