@@ -33,3 +33,5 @@ We developed a Flask application in Python and deployed it on Azure Web Services
 - Deploying an API management solution to serve a larger client base.
 - Establishing robust security controls covering identity and access management, logging and monitoring, infrastructure protection, and data protection.
 - Automating Azure infrastructure deployments using Terraform.
+- Evaluate models of different vendors and monitor for bias over time.
+- Extensive evaluations to ensure a fair and auditable AI solution consisent with the principles and laws that govern our society.
