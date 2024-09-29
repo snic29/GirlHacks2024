@@ -1,0 +1,22 @@
+{
+	"azure_openai_gpt-4_turbo":{
+		"endpoint": "https://oai-usnc-gpt01.openai.azure.com/",
+		"keyss": "XXXXXXXXXXXXXXXXX",
+		"engine": "gpt4-turbo",
+		"api_version": "2023-03-15-preview"
+
+	},
+	"azure_openai_gpt-4o":{
+		"endpoint": "https://oai-usnc-gpt01.openai.azure.com/",
+		"keyss": "XXXXXXXXXXXXXXXXX",
+		"engine": "gpt-4o",
+		"api_version": "2023-03-15-preview"
+
+	},
+	"azure_openai_gpt35_turbo":{
+		"endpoint": "https://oai-usnc-gpt01.openai.azure.com/",
+		"keyss": "XXXXXXXXXXXXXXXXX",
+		"engine": "gpt-35-turbo",
+		"api_version": "2023-03-15-preview"
+	}
+}

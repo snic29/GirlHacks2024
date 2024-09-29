@@ -1,5 +1,23 @@
-from openai import AzureOpenAI
 import os
+import platform
+import sys
+import json
+from openai import AzureOpenAI
+
+
+os_type = platform.system()
+if os_type == 'Linux':
+    delimiter="/"
+elif os_type=='Windows':
+    delimiter="\\"
+    
+try:
+    with open("scripts" + delimiter + "config.json",'r') as config_file:
+        config=json.load(config_file)
+    config_file.close()
+except FileNotFoundError:
+    print("config.json not found\n")
+    sys.exit(6)
 
 def call_openai_chat(prompt):
     client = AzureOpenAI(
