@@ -1,0 +1,35 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    font-family: Georgia;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+nav ul li {
+    float: left
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+body {
+    padding-top: 50 px;
+}
+h2 {
+    font-family: Georgia;
+}

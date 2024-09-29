@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Remix - Prototype</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/upload">Upload Resume/Job posting</a></li>
+                <li><a href="/playground">Prompt Playground</a></li>
+				<li><a href="/eval">Eval Resume vs Posting</a></li>
+				
+            </ul>
+        </nav>
+        <div>
+            <h2>Prompt Playground</h2>
+            <form method="post">
+				Model Name:
+				<select name="model" id="model">
+					<option value="azure_openai_gpt-4o" selected>Azure OpenAI GPT-4o</option>
+					<option value="azure_openai_gpt-4_turbo">Azure OpenAI GPT-4 Turbo</option>
+					<option value="azure_openai_gpt35_turbo">Azure OpenAI GPT 3.5 Turbo</option>
+				</select>
+
+				<BR> &nbsp;
+				<BR> &nbsp;<BR> &nbsp;
+
+			
+                Document Name:
+                <select name="file_name">
+                    {% for file_name in file_names %}
+                    <option value="{{ file_name }}">{{ file_name }}</option>
+                    {% endfor %}
+                </select>
+				<BR> &nbsp;
+				<BR> &nbsp;<BR> &nbsp;
+				
+                Prompt: <textarea id="prompt" name="prompt" rows="30" cols="80" placeholder="Enter prompt here"> Given this job posting, and the inferred company culture, extract the 10 most important qualities an applicant should have. Return as comma separated values.
+				</textarea>
+				<BR> &nbsp;
+				<BR> &nbsp;<BR> &nbsp;
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

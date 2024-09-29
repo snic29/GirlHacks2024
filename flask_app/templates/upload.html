@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Remix - Prototype</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/upload">Upload Resume/Job posting</a></li>
+                <li><a href="/playground">Prompt Playground</a></li>
+				<li><a href="/eval">Eval Resume vs Posting</a></li>
+				
+            </ul>
+        </nav>
+        <div>
+            <h2>Upload New Resume/Job posting</h2>
+            <form method="post" enctype="multipart/form-data">
+               <select name="doctype" id="doctype">
+			<option value="postings">Job Post</option>
+			<option value="resumes">Resume</option>
+		</select>
+		 <input type="file" name="file">
+		<input type="submit" value="Upload">
+            </form>
+        </div>
+    </body>
+</html>
