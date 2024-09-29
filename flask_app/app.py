@@ -28,11 +28,11 @@ def upload_file():
     if request.method == "POST":
 
         if "file" not in request.files:
-            upload_msg = "You must select a json file!"
+            upload_msg = "You must select a text file!"
         else:
             file = request.files["file"]
             if file.filename == "":
-                upload_msg = "You must select a json file!"
+                upload_msg = "You must select a text file!"
             else:
                 if file:
                     file.save(os.path.join(app.config['UPLOAD FOLDER'], request.form.get("doctype"),file.filename))
