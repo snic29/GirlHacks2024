@@ -34,7 +34,7 @@ def call_openai_chat(model, prompt):
         api_version=model["api_version"]
         )
         completion = client.chat.completions.create(
-            model = model["engine"]
+            model = model["engine"],
             messages = prompt,
             temperature = 0,
             top_p = 0.95,
