@@ -9,10 +9,9 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/upload">Upload Resume/Job posting</a></li>
+                <li><a href="/upload">Upload Resume/Job Posting</a></li>
                 <li><a href="/playground">Prompt Playground</a></li>
-				<li><a href="/eval">Eval Resume vs Posting</a></li>
-				
+				<li><a href="/eval">Evaluate Resume vs. Posting</a></li>
             </ul>
         </nav>
 
@@ -20,6 +19,10 @@
             <h2>&nbsp;<br>&nbsp;<br></h2>
         </div>
 		<h2>{{msg}}</h2>
+
+        <div>
+            <img src="{{ url_for('static', filename='ball.gif') }}" alt="Ball GIF" />
+        </div>
 
 		
     </body>

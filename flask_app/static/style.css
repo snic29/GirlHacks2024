@@ -3,7 +3,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #f6a4b0;
     z-index: 1000;
     font-family: Georgia;
 }
@@ -24,7 +24,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover {
-    background-color: #ddd;
+    background-color: #f5d7e3;
     color: black;
 }
 body {

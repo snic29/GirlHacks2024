@@ -16,7 +16,7 @@ elif os_type=='Windows':
 
 @app.route('/')
 def home():
-    return render_template('home.html', msg="Resume Remix by GenAI")
+    return render_template('home.html', msg="Resume Remix using GenAI")
 
 #TODO - implementing RAG
 @app.route('/eval')
